@@ -11,3 +11,4 @@
   authorized_key: user={{ username }}
                   key="{{ common_public_key }}"
                   state=present
+# don't remove the "" or it will fail
